@@ -42,3 +42,8 @@ the original branches and a diagonal line to show the merging.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+There's always a risk that an automatic merge works incorrectly and that it
+introduces unexpected bugs into the code silently.  Always doing merges
+manually is time consuming and forces examination of code that would have
+merged well with the automated approach.
