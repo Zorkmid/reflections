@@ -1,0 +1,62 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Viewing a diff highlighted the changes that might have led to the difference in 
+behaviour.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Knowing the sections that are most volatile might lead to a modification that
+could simplify the change process.
+
+A volatile section of code could indicate a weakness in the understanding the
+initial user requirement and suggest possible future improvements in user
+requirement gathering.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+The choice is subjective and change information could be lost if code is lost
+before a commit.
+
+The programmer is a poor judge of what an appropriate quantum of change will
+be both illuminating and clear to a second developer. 
+
+Code will compile.
+
+Changes are logically connected.
+
+Unlikely to miss key changes.
+
+Self documenting.
+
+Easy to follow change history.
+
+Easy to focus on the changes that are likely to have generated the bug
+detected.   
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git deals with coding which leads to related changes across multiple files while
+Google Docs deals with standalone changes that are unrelated across files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log displays the unique ID and description of all the commits in the
+repository.
+
+git diff displays the changes made between two commits (the syntax requires
+git diff [final UID] [initial UID]).
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Since you could always revert to a previous version any code that breaks the
+application can be reversed by isolating the offending code and correcting it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Useful for a course on customizing Android Auto for geocaching purposes.
