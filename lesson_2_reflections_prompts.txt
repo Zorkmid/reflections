@@ -36,5 +36,9 @@ command.  Branches are indented to illustrate the history of its commits.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+A merge creates a new branch whose parents consist of two or more branches
+that have been combined into one.  The diagram still shows the indenting of
+the original branches and a diagonal line to show the merging.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
