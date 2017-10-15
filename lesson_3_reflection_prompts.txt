@@ -31,3 +31,12 @@ What is the benefit of having a copy of the last known state of the remote store
 
 The local copy acts as a proxy for the remote to handle situations where the remote is
 unreachable.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Manual collaboration might involve sending file changes via e-mail or maintaining separate
+directories on a network with separate copies of the source code.  Periodic comparisons of
+the directories might be performed to find differences.  There would be no history nor
+explanations for the various changes.  It would be chaotic and error prone.  Git/GitHub provides
+a running history of changes and mechanisms for combining changes.  Merging would be difficult
+with either approach, but Git provides a solid, consistent rationale and approach.
