@@ -4,3 +4,8 @@ When would you want to use a remote repository rather than keeping all your work
 using a web interface.
 2. When collaborating with another author making updates to a shared document or adding
 files to a shared repository.
+
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+Gives the owner of the repository fine grained control over the contents.
