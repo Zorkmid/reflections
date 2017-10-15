@@ -40,3 +40,9 @@ the directories might be performed to find differences.  There would be no histo
 explanations for the various changes.  It would be chaotic and error prone.  Git/GitHub provides
 a running history of changes and mechanisms for combining changes.  Merging would be difficult
 with either approach, but Git provides a solid, consistent rationale and approach.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+In order to stage releases it may be necessary to permit the master to progress to a suitable
+release goal while working in parallel on a future feature in a branch.  In that way viability
+of the new feature can be tested and delivery schedules tightened.
