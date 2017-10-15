@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+1. When you don't have access to your main computer and need to update the repository
+using a web interface.
+2. When collaborating with another author making updates to a shared document or adding
+files to a shared repository.
