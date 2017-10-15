@@ -26,3 +26,8 @@ Changes may be incorporated into the source repository at the discretion of the 
 
 Clones are made to facilitate development by duplicating the repository in a development
 environment.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The local copy acts as a proxy for the remote to handle situations where the remote is
+unreachable.
